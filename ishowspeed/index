@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ishowspeed</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #b51919; margin: 20px;">
+
+    <nav style="text-align: center; margin-bottom: 20px;">
+        <p style="font-weight: bold;">
+            Saul Gomez
+        </p>
+        <a href="#home" style="color: white; margin: 0 10px; text-decoration: none; font-weight: bold;">Home</a> | 
+        <a href="#about" style="color: white; margin: 0 10px; text-decoration: none; font-weight: bold;">About</a> | 
+        <a href="#works" style="color: white; margin: 0 10px; text-decoration: none; font-weight: bold;">Songs</a> | 
+        <a href="#favorites" style="color: white; margin: 0 10px; text-decoration: none; font-weight: bold;">Favorites</a>
+    </nav>
+
+    <section id="home" style="background-color: rgb(208, 23, 23); padding: 15px; margin-bottom: 15px; border: 1px solid #ccc; text-align: center;">
+        <h1 style="color: rgb(0, 0, 0);">IShowSpeed</h1>
+        <img src="speed.png"Vincent van Gogh" style="width: 250px; border: 2px solid navy;">
+        <p style="font-size: 14px;">"Put that on Allah, Say wallahi bro say wallahi..."</p>
+    </section>
+
+    <section id="about" style="background-color: rgb(208, 23, 23); padding: 15px; margin-bottom: 15px; border: 1px solid #ccc;">
+        <h2 style="color: rgb(0,0,0);">About</h2>
+        <p>Darren Jason Watkins Jr. (born January 21, 2005), better known as IShowSpeed or simply Speed, is an American influencer and online streamer. </p>
+        <h3>Important data</h3>
+        <ul>
+            <li>Born in january 21, 2005, Ohio.</li>
+            <li>He has 55.3 million followers on instagram.</li>
+            <li>He´s a rapper, Youtuber and online streamer.</li>
+        </ul>
+        <h3>Carrera</h3>
+        <p>He became famous thanks to a clip in his stream "EARLY STREAM!"</p>
+        <iframe width="1059" height="595" src="https://www.youtube.com/embed/YJdCpltq-_k" title="iShowSpeed &quot;My Mom Is Kinda Homeless&quot; Full Clip 😂" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section id="works" style="background-color: rgb(208, 23, 23); padding: 15px; margin-bottom: 15px; border: 1px solid #ccc;">
+        <h2 style="color: rgb(0, 0, 0);">Songs</h2>
+        
+        <div>
+            <h3>1. World Cup (2022)</h3>
+            <iframe width="1059" height="595" src="https://www.youtube.com/embed/8n5dJwWXrbo" title="IShowSpeed - World Cup (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div>
+            <h3>2. World Cup (Champions, 2026)</h3>
+            <iframe width="1059" height="595" src="https://www.youtube.com/embed/vrY1THC_NQE" title="IShowSpeed - World Cup (Champions) [Official Music Video]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+    </section>
+
+    <section id="favorites" style="background-color: rgb(208, 23, 23); padding: 15px; border: 1px solid #ccc;">
+        <h2 style="color: navy;"></h2>
+        <img src="xde.jpg" style="display: block; margin: 0 auto;">
+    </section>
+
+</body>
+</html>
