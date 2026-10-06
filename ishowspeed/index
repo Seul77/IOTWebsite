@@ -13,7 +13,7 @@
         <a href="#home" style="color: white; margin: 0 10px; text-decoration: none; font-weight: bold;">Home</a> | 
         <a href="#about" style="color: white; margin: 0 10px; text-decoration: none; font-weight: bold;">About</a> | 
         <a href="#works" style="color: white; margin: 0 10px; text-decoration: none; font-weight: bold;">Songs</a> | 
-        <a href="#favorites" style="color: white; margin: 0 10px; text-decoration: none; font-weight: bold;">Favorites</a>
+        <a href="#favorites" style="color: white; margin: 0 10px; text-decoration: none; font-weight: bold;">Best Image</a>
     </nav>
 
     <section id="home" style="background-color: rgb(208, 23, 23); padding: 15px; margin-bottom: 15px; border: 1px solid #ccc; text-align: center;">
