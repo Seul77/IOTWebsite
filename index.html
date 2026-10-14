@@ -1,40 +1,80 @@
-<html>
-    <head>
-        <title>Saul</title>
-        <meta charset="utf-8">
-        <meta lang="es"
-    </head>
-    <body>
-        <h1>Saul</h1>
-        <h2>Me</h2>
-        <p>I'm 19 and live in Queretaro.</p>
-        <p>I have a dog</p>
-        
-        <img src = "seul.jpg"width="400px">
-        <img src = "whoishe.jpg" width="250px">
-        <br>
-        <img src = "spooderman.jpg" width="250px">
-        <img src = "ceiba.jpg" width="250px">
-        <br>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Saul</title>
+    <!-- le decimos al navegador qué conjunto de caracteres usa el sitio -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #eef3f9; color: #1d2b3a; margin: 0; padding: 0;">
 
-        <h2>Friends</h2>
-        <p>I like spending time with my friends.</p>
-        <img src = "lol.jpg"width="350px" >
-        <img src = "papus.jpg"width="350px"> 
-        <br>
+    <nav style="background-color: #145ba2; padding: 15px; text-align: center; border-bottom: 4px solid #0d3d6e;">
+        <a href="#me" style="color: white; font-weight: bold; font-size: 20px; text-decoration: none; margin: 0 15px;">Saul Gomez</a> |
+        <a href="#labs" style="color: white; font-weight: bold; text-decoration: none; margin: 0 15px;">LABS</a> |
+        <a href="#deliverables" style="color: white; font-weight: bold; text-decoration: none; margin: 0 15px;">PROJECT DELIVERABLES</a>
+    </nav>
 
-        <h2>Things I like</h2>
-        <p>I like playing the piano and sleeping</p>
-        <img src = "goats.jpg" width="400px">
-         <img src = "sleep.jpg" width="400px">
-          <img src = "piano.jpg" width="400px">
-        <p>I also like movies and music</p>
-        <img src = "music.png" width="350px">
-        <img src = "miguel.gif" width="350px">
+    <div style="max-width: 1100px; margin: 0 auto; padding: 20px;">
 
-<iframe width="1059" height="558" src="https://www.youtube.com/embed/7CHUtmnAS-k" title="Vector VS Thanos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        <br>
-        <a href="https://wa.me/4427873454?text=Hi">Send me a message!</a>
+        <section id="me" style="background-color: white; padding: 20px; margin-bottom: 20px; border: 2px solid #145ba2;">
+            <h1 style="font-size: 50px; color: #145ba2; margin-top: 0;">Saul</h1>
+            <h2 style="color: #0d3d6e;">Me</h2>
+            <!-- se puede escribir nada más pero se usa la p para especificar
+            que es un párrafo y poder darle formato -->
+            <p style="font-size: 16px;">I'm 19 and live in Queretaro.</p>
+            <p style="font-size: 16px;">I have a dog.</p>
 
-    </body>
+            <img src="seul.jpg" alt="Saul" width="400" style="max-width: 100%;">
+            <img src="whoishe.jpg" alt="Who is he" width="250" style="max-width: 100%;">
+            <br>
+            <img src="spooderman.jpg" alt="Spider-Man" width="250" style="max-width: 100%;">
+            <img src="ceiba.jpg" alt="Ceiba" width="250" style="max-width: 100%;">
+        </section>
 
+        <section id="friends" style="background-color: white; padding: 20px; margin-bottom: 20px; border: 2px solid #145ba2;">
+            <h2 style="color: #0d3d6e; margin-top: 0;">Friends</h2>
+            <p style="font-size: 16px;">I like spending time with my friends.</p>
+            <img src="lol.jpg" alt="Friends laughing" width="350" style="max-width: 100%;">
+            <img src="papus.jpg" alt="Papus" width="350" style="max-width: 100%;">
+        </section>
+
+        <section id="things" style="background-color: white; padding: 20px; margin-bottom: 20px; border: 2px solid #145ba2;">
+            <h2 style="color: #0d3d6e; margin-top: 0;">Things I like</h2>
+            <p style="font-size: 16px;">Some of my favorite things:</p>
+            <ul style="font-size: 16px;">
+                <li>Playing the piano</li>
+                <li>Sleeping</li>
+                <li>Movies</li>
+                <li>Music</li>
+            </ul>
+
+            <img src="goats.jpg" alt="Goats" width="400" style="max-width: 100%;">
+            <img src="sleep.jpg" alt="Sleeping" width="400" style="max-width: 100%;">
+            <img src="piano.jpg" alt="Piano" width="400" style="max-width: 100%;">
+            <p style="font-size: 16px;">I also like movies and music.</p>
+            <img src="music.png" alt="Music" width="350" style="max-width: 100%;">
+            <img src="miguel.gif" alt="Miguel" width="350" style="max-width: 100%;">
+
+            <iframe width="1059" height="558" src="https://www.youtube.com/embed/7CHUtmnAS-k" title="Vector VS Thanos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width: 100%;"></iframe>
+            <p style="font-size: 14px;"><a href="https://www.youtube.com/watch?v=7CHUtmnAS-k" style="color: #145ba2;">Watch it on YouTube</a></p>
+
+            <p style="font-size: 16px;"><a href="https://wa.me/4427873454?text=Hi" style="color: #145ba2; font-weight: bold;">Send me a message!</a></p>
+        </section>
+
+        <section id="labs" style="background-color: white; padding: 20px; border: 2px solid #145ba2;">
+            <h2 style="font-size: 36px; color: #145ba2; margin-top: 0;">Labs</h2>
+            <p style="font-size: 16px;">Here are all my labs for the course.</p>
+            <ul style="font-size: 16px;">
+                <li>
+                    <a href="lab01/index.html" style="color: #145ba2; font-weight: bold; margin: 10px;">Lab 01 — Artist Fan Page</a>
+                    <p style="font-size: 14px; margin: 5px 10px;">A fan page about the boxer Canelo Álvarez.</p>
+                </li>
+            </ul>
+
+            <h2 id="deliverables" style="font-size: 36px; color: #145ba2;">Project Deliverables</h2>
+            <p style="font-size: 14px;"><a href="https://github.com/Seul77/IOTWebsite" style="color: #145ba2;">GitHub</a></p>
+        </section>
+
+    </div>
+</body>
 </html>
